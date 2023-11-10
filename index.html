@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shecodes portfolio</title>
+    <meta
+      name="description"
+      content="patricia is a front-end engineer based in portugal."
+    />
+    <title>Front-end developer - patricia pereira</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -31,26 +35,30 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/index.html">
+        <a href="/index.html" title="Homepage">
           <img
             src="images/shecodes.png"
-            alt=""
+            alt="patricia logo"
             class="logo d-none d-md-block"
           />
-          <img src="images/logo.png" alt="" class="logo d-block d-md-none" />
+          <img
+            src="images/logo.png"
+            alt="patricia logo"
+            class="logo d-block d-md-none"
+          />
         </a>
         <ul>
           <li class="active">
-            <a href="/">Home</a>
+            <a href="/" title="Homepage">Home</a>
           </li>
           <li>
-            <a href="/about.html">About</a>
+            <a href="/about.html" title="About patricia">About</a>
           </li>
           <li>
-            <a href="/work.html">Work</a>
+            <a href="/work.html" title="patricia's Work">Work</a>
           </li>
           <li>
-            <a href="/contact.html">Contact</a>
+            <a href="/contact.html" title="contact patricia">Contact</a>
           </li>
         </ul>
       </nav>
@@ -61,7 +69,9 @@
       <h1>patricia pereira</h1>
       <h2 class="mb-5">Front-end developer based in portugal</h2>
       <div>
-        <a href="#" class="btn btn-branding"> Contact me</a>
+        <a href="/contact.html" class="btn btn-branding" title="contact me">
+          Contact me</a
+        >
       </div>
     </div>
     <div class="container">
@@ -70,7 +80,7 @@
       </p>
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img class="img-fluid" src="images/yogurt.png" alt="" />
+          <img class="img-fluid" src="images/yogurt.png" alt="yogurt project" />
         </div>
 
         <div class="col mb-5">
@@ -82,7 +92,7 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
       </div>
@@ -97,17 +107,25 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
         <div class="col d-none d-lg-block">
-          <img class="img-fluid" src="images/weather.png" alt="" />
+          <img
+            class="img-fluid"
+            src="images/weather.png"
+            alt="Weather project preview"
+          />
         </div>
       </div>
 
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img class="img-fluid" src="images/dictionary.png" alt="" />
+          <img
+            class="img-fluid"
+            src="images/dictionary.png"
+            alt="Dictionary App preview"
+          />
         </div>
 
         <div class="col">
@@ -119,39 +137,66 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
       </div>
 
-      <footer>
+      <footer class="container">
         <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
-            <div>
-          <h4>Work Inquiry</h4>
+          <div>
+            <h3>Work Inquiry</h3>
 
-          <p class="text-muted">
-            Let’s work together 
-          </p></div>
-<div>
-          <a href="" class="btn btn-branding mt-3">Contact me</a>
+            <p class="text-muted">Let’s work together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="contact me"
+              >Contact me</a
+            >
           </div>
         </div>
-        <div class="d-flex justify-content-center mb-5 ">
-          <a href="mailto:patricia@gmail.com" class="email-link"
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:patricia@gmail.com"
+            title="email patricia"
+            class="email-link"
             >patricia@gmail.com</a
           >
         </div>
         <div class="social-links d-flex justify-content-center">
-          <a href="https://www.instagram.com/patricia" target="_blank">
+          <a
+            href="https://www.instagram.com/patricia"
+            target="_blank"
+            title="instagram profile"
+          >
             <i class="fab fa-instagram"></i>
           </a>
-          <a href="https://www.github.com/patricia" target="_blank">
+          <a
+            href="https://www.github.com/patricia"
+            target="_blank"
+            title="github profile"
+          >
             <i class="fab fa-github"></i>
           </a>
-          <a href="https://www.twitter.com/patricia" target="_blank">
+          <a
+            href="https://www.twitter.com/patricia"
+            target="_blank"
+            title="twitter profile"
+          >
             <i class="fab fa-twitter"></i>
           </a>
         </div>
+        <p class="text-center mt-4">
+          ✌️ This Project Was Coded SheSodes ,an it is
+          <a href="https://github.com/RoyaAlmasimehr/portfolio-project" target="_blank"
+            >Open-sourced</a
+          > 
+        
+        </p>
+        
       </footer>
     </div>
   </body>
